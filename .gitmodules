@@ -1,0 +1,6 @@
+[submodule "src/initialization/supervised_finetune/ms-swift"]
+	path = src/initialization/supervised_finetune/ms-swift
+	url = https://github.com/modelscope/ms-swift.git
+[submodule "src/initialization/reward_model_training/OpenRLHF"]
+	path = src/initialization/reward_model_training/OpenRLHF
+	url = https://github.com/OpenRLHF/OpenRLHF.git
