@@ -1,5 +1,5 @@
 import abc
-from typing import Dict, Any, Tuple, List, Union, Optional
+from typing import Dict, Any, Tuple, List, Optional
 
 class InferenceBase(abc.ABC):
     """
@@ -32,17 +32,3 @@ class InferenceBase(abc.ABC):
             Tuple[str, Dict[str, Any]]: 返回推理结果和附加信息
         """
         pass
-    
-    @abc.abstractmethod
-    def batch_forward(self, input_texts: List[str], prompt_template: Optional[str] = None) -> List[Tuple[str, Dict[str, Any]]]:
-        """
-        批量执行推理
-        
-        Args:
-            input_texts: 输入文本列表
-            prompt_template: 可选的提示模板
-            
-        Returns:
-            List[Tuple[str, Dict[str, Any]]]: 返回推理结果和附加信息的列表
-        """
-        pass 
