@@ -1,7 +1,3 @@
-RewardSQL: zyx
-SQL_optimizer: wpy
-Askdata: zyx
-
 # 示例应用
 
 本目录包含使用大型语言模型训练与推理框架的实际应用示例，展示了如何利用框架的各个组件解决具体任务。
